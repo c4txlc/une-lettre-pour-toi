@@ -83,7 +83,7 @@ html{
   width: 400px; 
   height: 500px; 
   margin-top: 30px;
-  background-image: url("/img/paper.png");
+  background-image: url("./paper.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
