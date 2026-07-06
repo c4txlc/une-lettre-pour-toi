@@ -1,7 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import {useNavigate} from "react-router-dom"; 
+import { useNavigate } from "react-router-dom"; 
 import "./App.css";
+
+import letterImage from "./letter.png";
 
 function Letter() {
     const navigate = useNavigate();
@@ -16,9 +18,11 @@ function Letter() {
                         loop: true,
                         delay: 100,
                         deleteSpeed: 50
-                    }}/>
+                    }}
+                />
             </div>
-            <img className="floating-img" src="letter.png" alt="letter"/>
+            {/* Sử dụng biến letterImage thay cho đường dẫn văn bản */}
+            <img className="floating-img" src={letterImage} alt="letter"/>
             <div>
                 <button className="btn" onClick={() => navigate("/")}>
                     Retour
