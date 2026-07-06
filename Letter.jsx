@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import {useNavigate} from "react-router-dom"; 
-import "../App.css";
+import "./App.css";
 
 function Letter() {
     const navigate = useNavigate();
