@@ -40,23 +40,23 @@ function TheBirthdayLetter() {
                 <p>ta réaction?</p>
             </div>
             <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("./thanks-letter.png")}>
-                    <img src="./letter2.png" alt="letter" className="img-small"/>
+                <button className="img-button" onClick={() => openPopup("thanks-letter.png")}>
+                    <img src="letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">merci</span>
                 </button>
-                <button className="img-button" onClick={() => openPopup("./sorry-letter.png")}>
-                    <img src="./letter2.png" alt="letter" className="img-small"/>
+                <button className="img-button" onClick={() => openPopup("sorry-letter.png")}>
+                    <img src="letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">désolé</span>
                 </button>
             </div>
 
             <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("./happy-letter.png")}>
-                    <img src="./letter2.png" alt="letter" className="img-small"/>
+                <button className="img-button" onClick={() => openPopup("happy-letter.png")}>
+                    <img src="letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">heureux</span>
                 </button>
-                <button className="img-button" onClick={() => openPopup("./sad-letter.png")}>
-                    <img src="./letter2.png" alt="letter" className="img-small"/>
+                <button className="img-button" onClick={() => openPopup("sad-letter.png")}>
+                    <img src="letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">triste</span>
                 </button>
             </div>
